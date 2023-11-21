@@ -32,19 +32,19 @@
 
 :root {
     --global-font-size: 16px;
-    --global-font-color: #444;
+    --global-font-color: #faf0f0;
     --mono-font-stack: Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --font-stack: Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --global-line-height: 1.6em;
     --page-width: 70em;
     --display-h1-decoration: 1;
-    --code-bg-color: #fff;
+    --code-bg-color: #0a0909;
 }
 
 @media only screen and (max-width: 850px) {
     :root {
         --global-font-size: 14px;
-        --global-font-color: #444;
+        --global-font-color: #f0eeee;
         --global-line-height: 1.6em;
         --page-width: 70em;
     }
@@ -58,7 +58,7 @@
 }
 
 .box-masonry .box-masonry-image {
-    background: #fff;
+    background: #070707;
 }
 
 .box-masonry,
@@ -73,7 +73,7 @@
 body {
     font-family: var(--font-stack);
     font-size: var(--global-font-size);
-    background-color: #fff;
+    background-color: #000000;
     margin-bottom: 75px;
 }
 
@@ -91,21 +91,25 @@ h6,
 .h6 {
     font-family: var(--font-stack);
     clear: both;
+    color: #f3f3f3!important; 
 }
 
 h1 {
     margin-bottom: 150px;
+    color: #f3f3f3!important;
 }
+
 
 .content-column-content p,
 .content-column-content li {
-    color: #666;
+    color: rgb(0, 26, 112)!important;
+
 }
 
 .btn-ghost {
-    color: #666;
+    color: #e4e4e4;
     background-color: transparent;
-    border-color: #333;
+    border-color: #eeeeee;
     font-weight: 400;
     font-family: var(--font-stack);
     padding: 6px 12px;
@@ -117,7 +121,7 @@ h1 {
 }
 
 .content-column-content .command {
-    color: #aaa;
+    color: #f0e9e9;
 }
 
 p.social a {
@@ -131,7 +135,7 @@ p.social a {
     font-size: 25px;
     text-align: center;
     vertical-align: bottom;
-    color: #999999;
+    color: #e4dede;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -197,12 +201,15 @@ figure {
     position: relative;
     padding-left: 130px;
     top: 0;
+    color: #ffffff!important;
+
 }
 
 .post h1, .post h2 {
     padding-top: 0;
     margin: 0;
     margin-bottom: 5px;
+
 }
 
 .posts-list .date {
@@ -212,6 +219,7 @@ figure {
     width: 130px;
     z-index: 400;
     padding-top: 0;
+    color:#fdfdfd!important:
 }
 
 @media only screen and (max-width: 850px) {
@@ -237,6 +245,7 @@ figure {
 
     .terminal-menu li {
         margin-right: 20px;
+        
     }
 
     .logo {
@@ -254,10 +263,12 @@ figure {
         position: relative;
         padding-left: 0;
         top: 0;
+        
     }
 
     .post h1, .post h2 {
         padding-top: 0;
+        
     }
 
     .posts-list .date {
@@ -269,6 +280,7 @@ figure {
         font-weight: bold;
         padding-top: 0;
         display: none;
+        
     }
 
 
