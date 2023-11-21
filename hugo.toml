@@ -1,12 +1,9 @@
 baseurl = "https://example.com/"
-title = "Pedro A."
+title = "Pedro Amaral"
 theme = "hugo-theme-console"
 languageCode = "en-us"
 
 [params]
-  # Cutting off the page title to two chars for mobile (console-demo -> co)
-titleCutting = true
-
   # Set the animation style -- https://animate.style/
   # To disable animations, please remove or comment animationStyle parameter
 animateStyle = "animated zoomIn fast" 
