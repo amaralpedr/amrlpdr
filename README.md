@@ -8,6 +8,6 @@ Principal Software Engineer at CVC
 
 Economic Sciences at PUC
 
-Mathematics at Mackenzie
+Mathematics at Mackenzie 
 
 Founder at Solow
